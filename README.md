@@ -2,10 +2,6 @@
 
 My personal computer settings for things like macOS terminal, Oryx keyboard layout, or Vim.
 
-## macOS Terminal
-
-![](https://i.ibb.co/KKDw0mW/terminal.png)
-
 ## Zejiran I Keyboard Layout
 
 #### Colemak Layer
@@ -16,3 +12,7 @@ My personal computer settings for things like macOS terminal, Oryx keyboard layo
 
 #### Special Layer
 ![](https://i.ibb.co/hf5Vt8b/Zejiran-I-S.png)
+
+## macOS Terminal
+
+![](https://i.ibb.co/KKDw0mW/terminal.png)
