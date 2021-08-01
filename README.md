@@ -20,6 +20,19 @@ I am currently using Ubuntu 21.04 with the following settings:
 
 **Dock:** Disable it, you really do not need it.
 
+**Codecs & Microsoft Fonts:** install with `sudo apt install ubuntu-restricted-extras ubuntu-restricted-addons`.
+
+**Swap:** decrease to 10 with `sudo gedit /etc/sysctl.conf` if you have enough RAM.
+
+**GNOME Tweaks**: `sudo apt install gnome-tweaks`.
+
+**Ubuntu Cleaner**: 
+```
+sudo add-apt-repository ppa:gerardpuig/ppa
+sudo apt-get update
+sudo apt-get install ubuntu-cleaner
+```
+
 #### Recommended software:
 
 - [Authy](https://authy.com/): 2FA.
