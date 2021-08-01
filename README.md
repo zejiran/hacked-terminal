@@ -46,14 +46,17 @@ sudo apt-get install ubuntu-cleaner
 
 ## Zejiran I Keyboard Layout
 
-#### Colemak Layer
-![](https://i.ibb.co/xsNQ3XY/Zejiran-I-C.png)
+#### Linux Layer
+![](https://i.ibb.co/HTtLsfM/l.png)
 
 #### Qwerty Layer
-![](https://i.ibb.co/M5t0Vdf/Zejiran-I-Q.png)
+![](https://i.ibb.co/kHkmKxQ/q.png)
 
 #### Special Layer
-![](https://i.ibb.co/hf5Vt8b/Zejiran-I-S.png)
+![](https://i.ibb.co/dJJqhN9/s.png)
+
+#### Colemak Layer
+![](https://i.ibb.co/09NLWrW/c.png)
 
 ## macOS Terminal
 
