@@ -20,6 +20,17 @@ I am currently using Ubuntu 21.04 with the following settings:
 
 **Dock:** Disable it, you really do not need it.
 
+#### Recommended software:
+
+- [Authy](https://authy.com/): 2FA.
+- [Bitwarden](https://bitwarden.com/): Password manager.
+- [GIMP](https://www.gimp.org/): Image editor.
+- [OBS](https://obsproject.com/): Recording and streaming software.
+- [Kdenlive](https://kdenlive.org): Video editor.
+- [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
+- [Keybase](https://keybase.io/): Encrypted messages.
+- [MuseScore](https://musescore.org/en): Music composition and notation.
+
 ## Zejiran I Keyboard Layout
 
 #### Colemak Layer
