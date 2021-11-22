@@ -19,13 +19,18 @@
 ;;
 ;; They all accept either a font-spec, font string ("Input Mono-12"), or xlfd
 ;; font string. You generally only need these two:
-;; (setq doom-font (font-spec :family "monospace" :size 12 :weight 'semi-light)
+;; (setq doom-font (font-spec :family "monospace" :size 15 :weight 'semi-light)
 ;;       doom-variable-pitch-font (font-spec :family "sans" :size 13))
+
+;; "monospace" means use the system default. However, the default is usually two
+;; points larger than I'd like, so I specify size 12 here.
+(setq doom-font (font-spec :family "JetBrainsMono" :size 17 :weight 'light)
+      doom-variable-pitch-font (font-spec :family "JetBrainsMono" :size 18))
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-palenight)
+(setq doom-theme 'doom-moonlight)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -53,5 +58,5 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq initial-frame-alist '((top . 15) (left . 21) (width . 186) (height . 50)))
+;; (setq initial-frame-alist '((width . 186) (height . 50)))
 (setq frame-title-format "")
