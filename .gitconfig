@@ -1,0 +1,19 @@
+[credential]
+	helper = store
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --no-merges
+	git = !exec git
+	count-lines = "! git log --author=\"$1\" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf \"added lines: %s, removed lines: %s, total lines: %s\\n\", add, subs, loc }' #"
+[help]
+	autocorrect = 1
+[includeIf "gitdir:~/hack/zejiran/"]
+	path = .gitconfig-personal
+[includeIf "gitdir:~/hack/work/"]
+	path = .gitconfig-work
+[core]
+	editor = vim
+	compression = -1
