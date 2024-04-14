@@ -14,15 +14,15 @@ My personal computer settings.
 
 When using Ubuntu, I recommend to use the following settings:
 
-**Applications:** [Gtk](https://draculatheme.com/gtk)
+**Applications:** [Gtk](https://draculatheme.com/gtk).
 
-**Cursor:** [SpaceKCursors](https://www.gnome-look.org/p/1398513/)
+**Cursor:** [SpaceKCursors](https://www.gnome-look.org/p/1398513/).
 
-**Icons:** [Dracula](https://draculatheme.com/gtk)
+**Icons:** [Dracula](https://draculatheme.com/gtk).
 
 **Titlebar:** I recommend to disable all buttons and instead use shortcuts for this.
 
-**Terminal:** [Dracula]((https://draculatheme.com/gnome-terminal)) + [fish](https://fishshell.com/) + [starship](https://starship.rs/) + `#212337` for background color
+**Terminal:** [Dracula]((https://draculatheme.com/gnome-terminal)) + [fish](https://fishshell.com/) + [starship](https://starship.rs/) + `#212337` for background color.
 
 **Shortcuts:** Add shortcuts for open programs like your browser, file manager, music, or terminal.
 
@@ -43,7 +43,7 @@ sudo apt-get install ubuntu-cleaner
 
 ## macOS
 ### Application Icons
-Configure custom icons for your most used applications from [here](./mac-icons)
+Configure custom icons for your most used applications from [here](./mac-icons).
 
 ### Terminal
 ![](https://i.ibb.co/KKDw0mW/terminal.png)
@@ -71,7 +71,7 @@ For using this terminal:
 ![image](https://user-images.githubusercontent.com/30379522/142906690-4e9a0fd5-9a26-430c-bd47-58523092309d.png)
 
 ## Zejiran I Keyboard Layout
-This is my personal layout designed for the [Moonlander keyboard](https://www.zsa.io/moonlander/)
+This is my personal layout designed for the [Moonlander keyboard](https://www.zsa.io/moonlander/).
 
 -> [Download this layout](https://configure.zsa.io/moonlander/layouts/jXRZ4/latest/0) <-
 
