@@ -5,12 +5,11 @@ My personal computer settings.
 ### Table of Contents
 
 - [Linux](#linux)
+- [macOS](#macos)
 - [Recommended software](#recommended-software)
 - [Moonlander Keyboard Layout](#zejiran-i-keyboard-layout)
-- [macOS Terminal](#macos-terminal)
 
 ## Linux
-
 ### Ubuntu
 
 When using Ubuntu, I recommend to use the following settings:
@@ -42,8 +41,23 @@ sudo apt-get update
 sudo apt-get install ubuntu-cleaner
 ```
 
-## Recommended software
+## macOS
+### Application Icons
+Configure custom icons for your most used applications from [here](./mac-icons)
 
+### Terminal
+![](https://i.ibb.co/KKDw0mW/terminal.png)
+
+For using this terminal:
+
+1. Open the default macOs terminal.
+2. Go to Preferences, then Profiles.
+3. Import the [Purple Dragon profile](./mac-terminal/purple-dragon.terminal).
+  <img width="300" src="https://user-images.githubusercontent.com/30379522/176507211-bd7f80e1-7269-4b93-a804-145cf08b007f.png">
+4. Finally, update the background image of the profile with [this](./mac-terminal/terminal-background.png).
+  <img width="450" src="https://user-images.githubusercontent.com/30379522/176507507-b6d6b4fb-90c2-4867-a43b-8d28033c2827.png">
+
+## Recommended software
 - [Authy](https://authy.com/): 2FA.
 - [Bitwarden](https://bitwarden.com/): Password manager.
 - [GIMP](https://www.gimp.org/): Image editor.
@@ -52,6 +66,7 @@ sudo apt-get install ubuntu-cleaner
 - [Keybase](https://keybase.io/): Encrypted messages.
 - [MuseScore](https://musescore.org/en): Music composition and notation.
 - [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
+- [Commit Mono](https://commitmono.com/): Anonymous and neutral coding font.
 
 ![image](https://user-images.githubusercontent.com/30379522/142906690-4e9a0fd5-9a26-430c-bd47-58523092309d.png)
 
@@ -71,16 +86,3 @@ This is my personal layout designed for the [Moonlander keyboard](https://www.zs
 
 ### macOS Colemak Layer
 ![Colemak Layer](https://user-images.githubusercontent.com/30379522/142907442-a3cd496e-ffa1-4166-ad08-91d228717b65.png)
-
-## macOS Terminal
-![](https://i.ibb.co/KKDw0mW/terminal.png)
-
-For using this terminal:
-
-1. Open the default macOs terminal.
-2. Go to Preferences, then Profiles.
-3. Import the [Purple Dragon profile](./mac-terminal/purple-dragon.terminal).
-  <img width="300" src="https://user-images.githubusercontent.com/30379522/176507211-bd7f80e1-7269-4b93-a804-145cf08b007f.png">
-  
-4. Finally, update the background image of the profile with [this](./mac-terminal/terminal-background.png).
-  <img width="450" src="https://user-images.githubusercontent.com/30379522/176507507-b6d6b4fb-90c2-4867-a43b-8d28033c2827.png">
