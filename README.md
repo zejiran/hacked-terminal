@@ -54,6 +54,7 @@ For using this terminal:
 2. Go to Preferences, then Profiles.
 3. Import the [Purple Dragon profile](./mac-terminal/purple-dragon.terminal).
   <img width="300" src="https://user-images.githubusercontent.com/30379522/176507211-bd7f80e1-7269-4b93-a804-145cf08b007f.png">
+
 4. Finally, update the background image of the profile with [this](./mac-terminal/terminal-background.png).
   <img width="450" src="https://user-images.githubusercontent.com/30379522/176507507-b6d6b4fb-90c2-4867-a43b-8d28033c2827.png">
 
