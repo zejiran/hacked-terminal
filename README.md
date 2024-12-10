@@ -66,6 +66,7 @@ For using this terminal:
 - [Kdenlive](https://kdenlive.org): Video editor.
 - [Keybase](https://keybase.io/): Encrypted messages.
 - [MuseScore](https://musescore.org/en): Music composition and notation.
+- [Zed](https://zed.dev/): High-performance code editor.
 - [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
 - [Commit Mono](https://commitmono.com/): Anonymous and neutral coding font.
 
