@@ -7,6 +7,12 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "notification_panel": {
+    "dock": "left"
+  },
+  "chat_panel": {
+    "dock": "left"
+  },
   "project_panel": {
     "dock": "left"
   },
@@ -29,13 +35,14 @@
   "show_completion_documentation": true,
   "use_autoclose": false,
   "assistant": {
+    "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-4"
+      "model": "claude-3-5-sonnet"
     },
     "version": "2",
-    "enabled": false,
-    "button": false
+    "enabled": true,
+    "button": true
   },
   "tabs": {
     "git_status": true
