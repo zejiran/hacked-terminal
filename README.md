@@ -62,6 +62,7 @@ For using this terminal:
 - [Authy](https://authy.com/): 2FA.
 - [Bitwarden](https://bitwarden.com/): Password manager.
 - [GIMP](https://www.gimp.org/): Image editor.
+- [Krita](https://krita.org/): Digital painting and illustration software.
 - [OBS](https://obsproject.com/): Recording and streaming software.
 - [Kdenlive](https://kdenlive.org): Video editor.
 - [Keybase](https://keybase.io/): Encrypted messages.
@@ -69,6 +70,7 @@ For using this terminal:
 - [Zed](https://zed.dev/): High-performance code editor.
 - [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
 - [Commit Mono](https://commitmono.com/): Anonymous and neutral coding font.
+- [Spicetify](https://spicetify.app/): Spotify customization tool.
 
 ![image](https://user-images.githubusercontent.com/30379522/142906690-4e9a0fd5-9a26-430c-bd47-58523092309d.png)
 
