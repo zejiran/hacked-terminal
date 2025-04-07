@@ -7,8 +7,15 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "show_edit_predictions": true,
+  "git_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
   "notification_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "chat_panel": {
     "dock": "left"
@@ -23,8 +30,8 @@
   "theme": "Catppuccin Macchiato",
   "ui_font_family": "CommitMono",
   "buffer_font_family": "CommitMono",
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "ui_font_size": 14,
+  "buffer_font_size": 13.0,
   "autosave": {
     "after_delay": {
       "milliseconds": 5000
@@ -38,11 +45,12 @@
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-5-sonnet"
+      "model": "claude-3-7-sonnet"
     },
     "version": "2",
     "enabled": true,
-    "button": true
+    "button": true,
+    "enable_experimental_live_diffs": true
   },
   "tabs": {
     "git_status": true
