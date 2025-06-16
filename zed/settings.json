@@ -27,7 +27,12 @@
     "dock": "bottom"
   },
   "base_keymap": "VSCode",
+  "icon_theme": "Catppuccin Macchiato",
   "theme": "Catppuccin Macchiato",
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  },
   "ui_font_family": "CommitMono",
   "buffer_font_family": "CommitMono",
   "ui_font_size": 14,
@@ -41,16 +46,18 @@
   "show_wrap_guides": true,
   "show_completion_documentation": true,
   "use_autoclose": false,
-  "assistant": {
+  "agent": {
+    "play_sound_when_agent_done": true,
+    "always_allow_tool_actions": true,
+    "default_profile": "write",
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "model": "claude-sonnet-4"
     },
     "version": "2",
     "enabled": true,
-    "button": true,
-    "enable_experimental_live_diffs": true
+    "button": true
   },
   "tabs": {
     "git_status": true
