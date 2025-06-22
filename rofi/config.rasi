@@ -1,0 +1,176 @@
+configuration {
+    modi: "drun";
+    font: "CommitMono Nerd Font 13";
+    show-icons: true;
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-combi: " 🖥️  All ";
+    display-drun: "   Apps ";
+    display-run: " 🏃  Run ";
+    display-window: " 🪟  Window";
+    sidebar-mode: false;
+}
+
+@import "colors/colors.rasi"
+
+window {
+   background-color: #1e1e2e;
+   width: 30%;
+   padding: 10px;
+   fullscreen: false;
+   border:  3px;
+   border-radius: 10px;
+   border-color: @dark4;
+}
+
+mainbox {
+   background-color: #1e1e2e;
+   spacing:5px;
+   border-radius: 20px;
+}
+
+message {
+   padding: 10px 10px;
+   background-color: #1e1e2e;
+   border-radius: 20px;
+}
+
+textbox {
+   text-color: @dark5;
+   background-color: #1e1e2e;
+   border-radius: 20px;
+}
+
+listview {
+   fixed-height: true;
+   dynamic: false;
+   scrollbar: false;
+   spacing: 0px;
+   padding: 5px 0px 0px 0px;
+   margin: 1px 1px 1px 1px;
+   background-color: #1e1e2e;
+   border-radius: 20px;
+}
+
+element {
+   padding: 4px 10px;
+   border-radius: 20px;
+}
+
+element normal.normal {
+   padding: 0px 15px;
+   background-color: #1e1e2e;
+   text-color: @dark3;
+   border-radius: 20px;
+}
+
+element normal.urgent {
+   background-color: #1e1e2e;
+   text-color: @urgent-color;
+}
+
+element normal.active {
+   background-color: #1e1e2e;
+   text-color: @dark5;
+   border-radius: 20px;
+}
+
+element selected.normal {
+    background-color: @dark4;
+    text-color:       @dark5;
+    border-radius: 20px;
+}
+
+element selected.urgent {
+    background-color: #1e1e2e;
+    text-color:       #1e1e2e;
+    border-radius: 20px;
+}
+
+element selected.active {
+    background-color: #1e1e2e;
+    text-color:       @dark5;
+    border-radius: 20px;
+}
+
+element alternate.normal {
+    background-color: #1e1e2e;
+    text-color:       @dark4;
+    border-radius: 20px;
+}
+
+element alternate.urgent {
+    background-color: #1e1e2e;
+    text-color:       @urgent-color;
+    border-radius: 20px;
+}
+
+element alternate.active {
+    background-color: #1e1e2e;
+    text-color:       #1e1e2e;
+    border-radius: 20px;
+}
+
+scrollbar {
+   background-color: #1e1e2e;
+   handle-color: #1e1e2e;
+   handle-width: 0px;
+   border-radius: 20px;
+}
+
+mode-switcher {
+   background-color: #1e1e2e;
+   border-radius: 20px;
+}
+
+button {
+   background-color: #1e1e2e;
+   text-color:       @dark5;
+   border-radius: 20px;
+}
+
+button selected {
+    text-color:       #1e1e2e;
+    border-radius: 20px;
+}
+
+inputbar {
+   background-color: #1e1e2e;
+   spacing: 0px;
+   children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+   border-radius: 20px;
+}
+
+prompt {
+   padding:0px 10px;
+   background-color: #1e1e2e;
+   text-color: @dark4;
+   border-radius: 20px;
+}
+
+entry {
+   padding:0px 6px;
+   background-color: #1e1e2e;
+   text-color: @dark4;
+   border-radius: 20px;
+}
+
+case-indicator {
+   padding:6px 10px;
+   text-color: #1e1e2e;
+   background-color: #1e1e2e;
+   border-radius: 20px;
+}
+
+textbox-prompt-colon {
+	padding:0px 0px;
+    expand:     false;
+    str:        "";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @red;
+    background-color: #1e1e2e;
+    border-radius: 20px;
+}
