@@ -33,10 +33,10 @@
     "metrics": false,
     "diagnostics": false
   },
-  "ui_font_family": "CommitMono",
-  "buffer_font_family": "CommitMono",
-  "ui_font_size": 14,
-  "buffer_font_size": 13.0,
+  "ui_font_family": "CommitMono Nerd Font",
+  "buffer_font_family": "CommitMono Nerd Font",
+  "ui_font_size": 15,
+  "buffer_font_size": 14,
   "autosave": {
     "after_delay": {
       "milliseconds": 5000
@@ -84,5 +84,13 @@
         }
       }
     }
+  },
+  "file_types": {
+    "Hyprland Config": [
+      "hyprland.conf",
+      "hyprlandd.conf",
+      "hyprland.hl",
+      "hyprlandd.hl"
+    ]
   }
 }
