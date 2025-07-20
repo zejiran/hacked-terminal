@@ -1,0 +1,411 @@
+/* Root Variables */
+:root {
+    --cc-bg: rgba(36, 39, 58, 0.7);
+    --noti-border-color: #bb9af7;
+    --noti-bg: 34, 36, 54;
+    --noti-bg-alpha: 0.8;
+    --noti-bg-darker: rgb(30, 30, 46);
+    --noti-bg-hover: rgba(36, 39, 58, 0.3);
+    --noti-bg-focus: rgba(68, 68, 68, 0.6);
+    --noti-close-bg: rgb(78, 78, 78);
+    --noti-close-bg-hover: rgb(94, 94, 94);
+    --text-color: #ffffff;
+    --text-color-disabled: rgb(150, 150, 150);
+    --bg-selected: #bb9af7;
+    --reboot-bg: #7da6ff;
+    --reboot-bg-hover: #5b8aff;
+    --poweroff-bg: #0db9d7;
+    --poweroff-bg-hover: #0999b3;
+    --notification-icon-size: 64px;
+    --notification-app-icon-size: calc(var(--notification-icon-size) / 3);
+    --notification-group-icon-size: 32px;
+    --mpris-album-art-overlay: rgba(0, 0, 0, 0.3);
+    --mpris-button-hover: rgba(255, 122, 147, 0.5);
+    --mpris-album-art-icon-size: 96px;
+    --widget-volume-row-icon-size: 24px;
+}
+
+/* General Styling */
+* {
+    font-family: "CommitMono Nerd Font";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Notification Window */
+.notification {
+    background: rgba(var(--noti-bg), var(--noti-bg-alpha));
+    border: 2px solid var(--noti-border-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    color: var(--text-color);
+}
+
+/* Notification Title */
+.notification-content .title {
+    font-family: "CommitMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff7a93;
+}
+
+/* Notification Body */
+.notification-content .body {
+    font-family: "CommitMono Nerd Font";
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+/* Notification Image */
+.notification-content .image {
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+/* Critical Notification */
+.notification.critical {
+    border: 2px solid #ff0000;
+    background: rgba(58, 46, 62, 0.8);
+}
+
+/* Notification Row */
+.notification-row {
+    background: none;
+    outline: none;
+}
+
+.notification-row:focus {
+    background: var(--noti-bg-focus);
+}
+
+.notification-row .notification-background .notification {
+    border-radius: 10px;
+    border: 2px solid var(--noti-border-color);
+    padding: 0;
+    transition: background 0.15s ease-in-out;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action {
+    padding: 4px;
+    margin: 0;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action:hover {
+    background: var(--noti-bg-hover);
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action:not(:only-child) {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content {
+    background: transparent;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .image {
+    -gtk-icon-filter: none;
+    -gtk-icon-size: var(--notification-icon-size);
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .app-icon {
+    -gtk-icon-filter: none;
+    -gtk-icon-size: var(--notification-app-icon-size);
+    -gtk-icon-shadow: 0 1px 4px black;
+    margin: 6px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .text-box
+    label {
+    filter: none;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .text-box
+    .summary {
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    color: #ff7a93;
+    text-shadow: none;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .text-box
+    .time {
+    font-size: 14px;
+    font-weight: normal;
+    background: transparent;
+    color: #b9f27c;
+    text-shadow: none;
+    margin-right: 10px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-default-action
+    .notification-content
+    .text-box
+    .body {
+    font-size: 14px;
+    font-weight: normal;
+    background: transparent;
+    color: var(--text-color);
+    text-shadow: none;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-alt-actions {
+    background: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4px;
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-action
+    > button {
+    border-radius: 8px;
+    background: #303030;
+    color: var(--text-color);
+}
+
+.notification-row
+    .notification-background
+    .notification
+    .notification-action
+    > button:hover {
+    background: var(--noti-bg-hover);
+}
+
+/* Close Button */
+.close-button {
+    background: var(--noti-close-bg);
+    color: var(--text-color);
+    padding: 0;
+    border-radius: 100%;
+    margin-top: 8px;
+    margin-right: 8px;
+    box-shadow: none;
+    border: none;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.close-button:hover {
+    background: var(--noti-close-bg-hover);
+    transition: background 0.15s ease-in-out;
+}
+
+/* Control Center */
+.control-center {
+    background: var(--cc-bg);
+    border: 2px solid var(--noti-border-color);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+/* Control Center List */
+.control-center .control-center-list {
+    background: transparent;
+}
+
+.control-center .control-center-list .notification {
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.3),
+        0 1px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Title Widget */
+.widget-title > label {
+    margin: 8px;
+    font-size: 1.5rem;
+    color: #b9f27c;
+}
+
+.widget-title > button {
+    margin: 8px;
+    border-radius: 8px;
+    background: #bb9af7;
+    color: #222436;
+}
+
+.widget-title > button:hover {
+    background: #ff7a93;
+}
+
+/* DND Widget */
+.widget-dnd {
+    margin: 8px;
+    border-radius: 8px;
+    background: #303030;
+}
+
+.widget-dnd label {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.widget-dnd switch {
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.widget-dnd switch slider {
+    border-radius: 12px;
+    background: #bb9af7;
+}
+
+.widget-dnd switch:checked slider {
+    background: #ff7a93;
+}
+
+/* Inhibitors Widget */
+.widget-inhibitors > label {
+    margin: 8px;
+    font-size: 1.5rem;
+    color: #b9f27c;
+}
+
+.widget-inhibitors > button {
+    margin: 8px;
+    border-radius: 8px;
+    background: #bb9af7;
+    color: #222436;
+}
+
+.widget-inhibitors > button:hover {
+    background: #ff7a93;
+}
+
+/* Buttons Grid Widget */
+.widget-buttons-grid {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background: #303030;
+}
+
+.widget-buttons-grid flowboxchild > button {
+    border-radius: 8px;
+    background: #ff7a93;
+    color: #222436;
+    font-family: "CommitMono Nerd Font";
+    font-size: 16px;
+    padding: 6px;
+}
+
+.widget-buttons-grid flowboxchild > button.toggle:checked {
+    background: #bb9af7;
+}
+
+.widget-buttons-grid flowboxchild:nth-child(2) > button {
+    background: var(--reboot-bg);
+}
+
+.widget-buttons-grid flowboxchild:nth-child(2) > button:hover {
+    background: var(--reboot-bg-hover);
+}
+
+.widget-buttons-grid flowboxchild:nth-child(3) > button {
+    background: var(--poweroff-bg);
+}
+
+.widget-buttons-grid flowboxchild:nth-child(3) > button:hover {
+    background: var(--poweroff-bg-hover);
+}
+
+/* Notification Group */
+.notification-group {
+    transition: opacity 200ms ease-in-out;
+}
+
+.notification-group.collapsed.not-expanded {
+    opacity: 0.4;
+}
+
+.notification-group.collapsed
+    .notification-row:not(:last-child)
+    .notification-action,
+.notification-group.collapsed
+    .notification-row:not(:last-child)
+    .notification-default-action {
+    opacity: 0;
+}
+
+.notification-group.collapsed:hover
+    .notification-row:not(:only-child)
+    .notification {
+    background-color: var(--noti-bg-hover);
+}
+
+.notification-group .notification-group-headers .notification-group-icon {
+    color: var(--text-color);
+    -gtk-icon-size: var(--notification-group-icon-size);
+}
+
+.notification-group .notification-group-headers .notification-group-header {
+    color: var(--text-color);
+}
+
+/* Blank Window */
+.blank-window {
+    background: transparent;
+}
+
+/* Floating Notifications */
+.floating-notifications {
+    background: transparent;
+}
