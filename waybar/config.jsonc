@@ -1,0 +1,33 @@
+{
+  "include": [
+    "$HOME/.config/waybar/Modules.jsonc",
+    "$HOME/.config/waybar/ModulesWorkspaces.jsonc",
+    "$HOME/.config/waybar/ModulesCustom.jsonc",
+    "$HOME/.config/waybar/ModulesGroups.jsonc"
+  ],
+  "layer": "top",
+  "exclusive": true,
+  "passthrough": false,
+  "position": "top",
+  "spacing": 6,
+  "fixed-center": true,
+  "margin-top": 3,
+  "margin-left": 8,
+  "margin-right": 8,
+
+  "modules-left": [
+    "custom/separator#cat",
+    "hyprland/workspaces#kanji",
+    "custom/separator#dot-line",
+    "tray"
+  ],
+  "modules-center": ["clock", "custom/separator#line", "group/notify"],
+  "modules-right": [
+    "group/mobo_drawer",
+    "custom/separator#line",
+    "group/connections",
+    "custom/separator#line",
+    "group/audio",
+    "custom/separator#blank"
+  ]
+}
