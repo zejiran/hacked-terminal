@@ -5,11 +5,45 @@ My personal computer settings.
 ### Table of Contents
 
 - [Linux](#linux)
+  - [Arch Linux](#arch-linux)
+  - [Ubuntu](#ubuntu)
 - [macOS](#macos)
 - [Recommended software](#recommended-software)
 - [Moonlander Keyboard Layout](#zejiran-i-keyboard-layout)
 
 ## Linux
+### Arch Linux
+
+When using Arch Linux, I recommend the following settings and programs:
+
+**Applications:** [Catppuccin GTK Theme Macchiato Mauve](https://github.com/catppuccin/gtk).
+
+**Cursor:** [Rose Pine Hyprcursor](https://github.com/rose-pine/rose-pine-hyprcursor) and [Rose Pine Cursor](https://github.com/rose-pine/rose-pine-cursor).
+
+**Icons:** [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) with violet color.
+
+**Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/) + [Catppuccin Macchiato](https://github.com/catppuccin/kitty) + [fish](https://fishshell.com/) + [starship](https://starship.rs/). Includes detailed Kitty configurations for fonts, opacity, and theme integration.
+
+**Window Manager:** [Hyprland](https://hyprland.org/). Includes configurations for Hypridle (idle management), Hyprlock (screen locking), Hyprpaper (wallpaper management), and Hyprland itself.
+
+**Status Bar:** [Waybar](https://github.com/Alexays/Waybar). Fully customized with modules, styling, and integration with Hyprland.
+
+**Launcher:** [Rofi](https://github.com/davatorium/rofi). Configured with custom colors and settings for enhanced usability and appearance.
+
+**File Manager:** [Thunar](https://docs.xfce.org/xfce/thunar/start).
+
+**Image Viewer:** [Mirage](https://sourceforge.net/projects/mirageiv.berlios/).
+
+**Spotify Customization:** [Spicetify](https://spicetify.app/).
+
+**System Monitoring:** [btop](https://github.com/aristocratos/btop), [nvtop](https://github.com/Syllo/nvtop).
+
+**Audio Tools:** [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph), [SwayNC](https://github.com/ErikReider/SwayNotificationCenter).
+
+**Gaming Tools:** [MangoHud](https://github.com/flightlessmango/MangoHud), [GOverlay](https://github.com/benjamimgois/goverlay).
+
+**Other Utilities:** [btop](https://github.com/aristocratos/btop), [nvtop](https://github.com/Syllo/nvtop), [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph), [hunspell](https://hunspell.github.io/), [openrgb](https://openrgb.org/).
+
 ### Ubuntu
 
 When using Ubuntu, I recommend to use the following settings:
@@ -71,6 +105,19 @@ For using this terminal:
 - [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
 - [Commit Mono](https://commitmono.com/): Anonymous and neutral coding font.
 - [Spicetify](https://spicetify.app/): Spotify customization tool.
+- [Mirage](https://sourceforge.net/projects/mirageiv.berlios/): Lightweight image viewer.
+- [Waybar](https://github.com/Alexays/Waybar): Status bar for Wayland.
+- [Hyprland](https://hyprland.org/): Dynamic tiling Wayland compositor.
+- [Rofi](https://github.com/davatorium/rofi): Window switcher, application launcher, and more.
+- [Fish](https://fishshell.com/): Friendly interactive shell.
+- [Kitty](https://sw.kovidgoyal.net/kitty/): Fast, feature-rich, GPU-based terminal emulator.
+- [SwayNC](https://github.com/ErikReider/SwayNotificationCenter): Notification center for Sway.
+- [GOverlay](https://github.com/benjamimgois/goverlay): GUI for Vulkan/OpenGL overlays.
+- [btop](https://github.com/aristocratos/btop): Resource monitor.
+- [nvtop](https://github.com/Syllo/nvtop): GPU monitoring tool.
+- [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph): PipeWire graph manager.
+- [Hunspell](https://hunspell.github.io/): Spell checker.
+- [OpenRGB](https://openrgb.org/): Open-source RGB lighting control.
 
 ![image](https://user-images.githubusercontent.com/30379522/142906690-4e9a0fd5-9a26-430c-bd47-58523092309d.png)
 
