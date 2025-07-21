@@ -20,31 +20,29 @@ When using Arch Linux, I recommend the following settings and programs:
 
 **Applications:** [Catppuccin GTK Theme Macchiato Mauve](https://github.com/catppuccin/gtk).
 
-**Cursor:** [Rose Pine Hyprcursor](https://github.com/rose-pine/rose-pine-hyprcursor) and [Rose Pine Cursor](https://github.com/rose-pine/rose-pine-cursor).
+**Cursor:** [Rose Pine Hyprcursor](https://github.com/ndom91/rose-pine-hyprcursor) and [Rose Pine Cursor](https://github.com/rose-pine/cursor).
 
 **Icons:** [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) with violet color.
 
-**Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/) + [Catppuccin Macchiato](https://github.com/catppuccin/kitty) + [fish](https://fishshell.com/) + [starship](https://starship.rs/). Includes detailed Kitty configurations for fonts, opacity, and theme integration.
+**Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/) + [Catppuccin Macchiato](https://github.com/catppuccin/kitty) + [fish](https://fishshell.com/) + [starship](https://starship.rs/).
 
-**Window Manager:** [Hyprland](https://hyprland.org/). Includes configurations for Hypridle (idle management), Hyprlock (screen locking), Hyprpaper (wallpaper management), and Hyprland itself.
+**Window Manager:** [Hyprland](https://hyprland.org/). Hypridle (idle management), Hyprlock (screen locking), Hyprpaper (wallpaper management), and Hyprland itself.
 
-**Status Bar:** [Waybar](https://github.com/Alexays/Waybar). Fully customized with modules, styling, and integration with Hyprland.
+**Status Bar:** [Waybar](https://github.com/Alexays/Waybar).
 
-**Launcher:** [Rofi](https://github.com/davatorium/rofi). Configured with custom colors and settings for enhanced usability and appearance.
+**Launcher:** [Rofi](https://github.com/davatorium/rofi).
 
 **File Manager:** [Thunar](https://docs.xfce.org/xfce/thunar/start).
 
-**Image Viewer:** [Mirage](https://sourceforge.net/projects/mirageiv.berlios/).
+**Image Viewer:** [Mirage](https://mirageiv.sourceforge.net/).
 
 **Spotify Customization:** [Spicetify](https://spicetify.app/).
 
-**System Monitoring:** [btop](https://github.com/aristocratos/btop), [nvtop](https://github.com/Syllo/nvtop).
-
-**Audio Tools:** [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph), [SwayNC](https://github.com/ErikReider/SwayNotificationCenter).
+**Notification Daemon:** [SwayNC](https://github.com/ErikReider/SwayNotificationCenter).
 
 **Gaming Tools:** [MangoHud](https://github.com/flightlessmango/MangoHud), [GOverlay](https://github.com/benjamimgois/goverlay).
 
-**Other Utilities:** [btop](https://github.com/aristocratos/btop), [nvtop](https://github.com/Syllo/nvtop), [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph), [hunspell](https://hunspell.github.io/), [openrgb](https://openrgb.org/).
+**Other Utilities:** [btop](https://github.com/aristocratos/btop), [nvtop](https://github.com/Syllo/nvtop), [qpwgraph](https://github.com/rncbc/qpwgraph), [hunspell](https://hunspell.github.io/), [openrgb](https://openrgb.org/).
 
 ### Ubuntu
 
@@ -104,10 +102,9 @@ For using this terminal:
 - [Keybase](https://keybase.io/): Encrypted messages.
 - [MuseScore](https://musescore.org/en): Music composition and notation.
 - [Zed](https://zed.dev/): High-performance code editor.
-- [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
 - [Commit Mono](https://commitmono.com/): Anonymous and neutral coding font.
 - [Spicetify](https://spicetify.app/): Spotify customization tool.
-- [Mirage](https://sourceforge.net/projects/mirageiv.berlios/): Lightweight image viewer.
+- [Mirage](https://mirageiv.sourceforge.net/): Lightweight image viewer.
 - [Waybar](https://github.com/Alexays/Waybar): Status bar for Wayland.
 - [Hyprland](https://hyprland.org/): Dynamic tiling Wayland compositor.
 - [Rofi](https://github.com/davatorium/rofi): Window switcher, application launcher, and more.
@@ -117,9 +114,10 @@ For using this terminal:
 - [GOverlay](https://github.com/benjamimgois/goverlay): GUI for Vulkan/OpenGL overlays.
 - [btop](https://github.com/aristocratos/btop): Resource monitor.
 - [nvtop](https://github.com/Syllo/nvtop): GPU monitoring tool.
-- [qpwgraph](https://gitlab.freedesktop.org/pipewire/qpwgraph): PipeWire graph manager.
+- [qpwgraph](https://github.com/rncbc/qpwgraph): PipeWire graph manager.
 - [Hunspell](https://hunspell.github.io/): Spell checker.
 - [OpenRGB](https://openrgb.org/): Open-source RGB lighting control.
+- [Doom Emacs](https://github.com/hlissner/doom-emacs): Vim + Emacs.
 
 ![image](https://user-images.githubusercontent.com/30379522/142906690-4e9a0fd5-9a26-430c-bd47-58523092309d.png)
 
@@ -127,6 +125,8 @@ For using this terminal:
 This is my personal layout designed for the [Moonlander keyboard](https://www.zsa.io/moonlander/).
 
 -> [Download this layout](https://configure.zsa.io/moonlander/layouts/jXRZ4/latest/0) <-
+
+> [Here](https://configure.zsa.io/moonlander/layouts/6Jndq/latest/0) is one variant/fork designed specifically for Linux.
 
 ### Linux Colemak Layer
 ![Linux Layer](https://user-images.githubusercontent.com/30379522/142907226-73e0dbef-34fd-45d8-86c0-79bffa0cb12e.png)
