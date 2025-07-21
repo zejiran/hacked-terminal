@@ -14,6 +14,8 @@ My personal computer settings.
 ## Linux
 ### Arch Linux
 
+<img width="2557" height="1436" alt="2025-07-20-232842_hyprshot" src="https://github.com/user-attachments/assets/571d50e9-1eca-4e08-87c4-64a518cafc8a" />
+
 When using Arch Linux, I recommend the following settings and programs:
 
 **Applications:** [Catppuccin GTK Theme Macchiato Mauve](https://github.com/catppuccin/gtk).
