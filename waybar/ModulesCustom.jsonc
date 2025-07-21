@@ -83,7 +83,7 @@
     "format": " 󰄛 ",
     "interval": "once",
     "tooltip": false,
-    "on-click": "notify-send 'Meow!' 'The cat is ready to hack!' -i 'face-wink'"
+    "on-click": "rofi -show emoji -modi emoji"
   },
   "custom/arrow1": {
     "format": "",

@@ -10,7 +10,8 @@
     "critical-threshold": 82,
     "format-critical": "{temperatureC}°C {icon}",
     "format": "{temperatureC}°C {icon}",
-    "format-icons": ["󰈸"]
+    "format-icons": ["󰈸"],
+    "on-click-right": "kitty sh -c 'nvtop'"
   },
 
   "backlight": {
@@ -73,7 +74,7 @@
     "tooltip-format-connected": "{device_enumerate}",
     "tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
     "tooltip": true,
-    "on-click": "blueman-manager"
+    "on-click": "rofi-bluetooth"
   },
 
   "clock": {
@@ -126,7 +127,8 @@
     "min-length": 5,
     "format-alt-click": "click",
     "format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
-    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+    "on-click-right": "kitty sh -c 'btop -p 1'"
   },
 
   "disk": {
@@ -196,7 +198,8 @@
     "format-alt": "{percentage}% 󰾆",
     "format-alt-click": "click",
     "tooltip": true,
-    "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB"
+    "tooltip-format": "{used:0.1f}GB / {total:0.1f}GB",
+    "on-click-right": "kitty sh -c 'btop -p 2'"
   },
 
   "network": {
@@ -211,7 +214,7 @@
     "tooltip-format-disconnected": "󰌙 Disconnected",
     "max-length": 30,
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
-    "on-click": ""
+    "on-click": "kitty 'nmtui'"
   },
 
   "network#speed": {
