@@ -12,13 +12,10 @@
     "dock": "right"
   },
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "zed"
   },
   "notification_panel": {
     "dock": "right"
-  },
-  "chat_panel": {
-    "dock": "left"
   },
   "project_panel": {
     "dock": "left"
@@ -55,7 +52,6 @@
       "provider": "copilot_chat",
       "model": "claude-sonnet-4"
     },
-    "version": "2",
     "enabled": true,
     "button": true
   },
