@@ -10,6 +10,7 @@ My personal computer settings.
 - [macOS](#macos)
 - [Recommended software](#recommended-software)
 - [Moonlander Keyboard Layout](#zejiran-i-keyboard-layout)
+- [License](#license)
 
 ## Linux
 ### Arch Linux
@@ -139,3 +140,10 @@ This is my personal layout designed for the [Moonlander keyboard](https://www.zs
 
 ### macOS Colemak Layer
 ![Colemak Layer](https://user-images.githubusercontent.com/30379522/142907442-a3cd496e-ffa1-4166-ad08-91d228717b65.png)
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](LICENSE)**
+- Copyright 2025 © Juan Alegría

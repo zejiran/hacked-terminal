@@ -12,7 +12,7 @@
     "dock": "right"
   },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "supermaven"
   },
   "notification_panel": {
     "dock": "right"
@@ -58,28 +58,8 @@
   "tabs": {
     "git_status": true
   },
-  "languages": {
-    "JavaScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      }
-    },
-    "TypeScript": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      }
-    },
-    "TSX": {
-      "formatter": {
-        "code_actions": {
-          "source.fixAll.eslint": true
-        }
-      }
-    }
+  "calls": {
+    "mute_on_join": true
   },
   "file_types": {
     "Hyprland Config": [
