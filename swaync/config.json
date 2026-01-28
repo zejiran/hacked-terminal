@@ -85,12 +85,12 @@
         {
           "label": "   ",
           "type": "normal",
-          "command": "hyprshutdown -t 'Restarting...' --post-cmd 'systemctl reboot'"
+          "command": "swaync-client -C && nohup hyprshutdown -t 'Restarting...' --post-cmd 'systemctl reboot' >/dev/null 2>&1 &"
         },
         {
           "label": "   ",
           "type": "normal",
-          "command": "hyprshutdown -t 'Shutting down...' --post-cmd 'systemctl poweroff'"
+          "command": "swaync-client -C && nohup hyprshutdown -t 'Shutting down...' --post-cmd 'systemctl poweroff' >/dev/null 2>&1 &"
         }
       ]
     }
