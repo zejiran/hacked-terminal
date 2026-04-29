@@ -96,22 +96,6 @@ style = "bold yellow"
 style_user = "bold lavender"
 style_root = "bold red"
 
-[nodejs]
-style  = "bold green"
-symbol = " "
-
-[python]
-style  = "bold yellow"
-symbol = " "
-
-[rust]
-style  = "bold peach"
-symbol = " "
-
-[aws]
-style  = "bold peach"
-symbol = "  "
-
 [battery]
 full_symbol         = '🔋 '
 charging_symbol     = '⚡️ '
