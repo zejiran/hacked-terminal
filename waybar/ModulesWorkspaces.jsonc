@@ -62,8 +62,6 @@
   // Kanji / Japanese style
   "hyprland/workspaces#kanji": {
     "disable-scroll": false,
-    "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",
-    "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
     "show-special": false,
     "all-outputs": false,
     "format": "{icon}",
