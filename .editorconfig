@@ -1,0 +1,14 @@
+# Formatter settings for lua-language-server's built-in formatter (EmmyLuaCodeStyle),
+# which Zed's Lua extension runs on save. All options:
+# https://github.com/CppCXY/EmmyLuaCodeStyle/blob/master/lua.template.editorconfig
+root = true
+
+[*.lua]
+indent_style = space
+indent_size = 4
+# Keep one bind/rule per line instead of wrapping at 120 columns.
+max_line_length = 200
+# Line up the arguments of consecutive similar calls (e.g. the hl.bind lines).
+align_continuous_similar_call_args = true
+# Align `=` only on directly adjacent lines, like the official example config.
+align_continuous_line_space = 1
